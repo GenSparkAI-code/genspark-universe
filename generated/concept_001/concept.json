@@ -1,5 +1,5 @@
 {
-    "title": "Demo Concept",
+    "title": "The Antarctic Cave",
     "videos": [
         {
             "id": 1,
@@ -7,19 +7,39 @@
             "clips": [
                 {
                     "id": 1,
-                    "title": "Clip 1"
+                    "title": "Scene 1",
+                    "narrative": "Narrative 1",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 2,
-                    "title": "Clip 2"
+                    "title": "Scene 2",
+                    "narrative": "Narrative 2",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 3,
-                    "title": "Clip 3"
+                    "title": "Scene 3",
+                    "narrative": "Narrative 3",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 4,
-                    "title": "Clip 4"
+                    "title": "Scene 4",
+                    "narrative": "Narrative 4",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 }
             ]
         },
@@ -29,19 +49,39 @@
             "clips": [
                 {
                     "id": 1,
-                    "title": "Clip 1"
+                    "title": "Scene 1",
+                    "narrative": "Narrative 1",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 2,
-                    "title": "Clip 2"
+                    "title": "Scene 2",
+                    "narrative": "Narrative 2",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 3,
-                    "title": "Clip 3"
+                    "title": "Scene 3",
+                    "narrative": "Narrative 3",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 4,
-                    "title": "Clip 4"
+                    "title": "Scene 4",
+                    "narrative": "Narrative 4",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 }
             ]
         },
@@ -51,19 +91,39 @@
             "clips": [
                 {
                     "id": 1,
-                    "title": "Clip 1"
+                    "title": "Scene 1",
+                    "narrative": "Narrative 1",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 2,
-                    "title": "Clip 2"
+                    "title": "Scene 2",
+                    "narrative": "Narrative 2",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 3,
-                    "title": "Clip 3"
+                    "title": "Scene 3",
+                    "narrative": "Narrative 3",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 4,
-                    "title": "Clip 4"
+                    "title": "Scene 4",
+                    "narrative": "Narrative 4",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 }
             ]
         },
@@ -73,19 +133,39 @@
             "clips": [
                 {
                     "id": 1,
-                    "title": "Clip 1"
+                    "title": "Scene 1",
+                    "narrative": "Narrative 1",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 2,
-                    "title": "Clip 2"
+                    "title": "Scene 2",
+                    "narrative": "Narrative 2",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 3,
-                    "title": "Clip 3"
+                    "title": "Scene 3",
+                    "narrative": "Narrative 3",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 4,
-                    "title": "Clip 4"
+                    "title": "Scene 4",
+                    "narrative": "Narrative 4",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 }
             ]
         },
@@ -95,19 +175,39 @@
             "clips": [
                 {
                     "id": 1,
-                    "title": "Clip 1"
+                    "title": "Scene 1",
+                    "narrative": "Narrative 1",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 2,
-                    "title": "Clip 2"
+                    "title": "Scene 2",
+                    "narrative": "Narrative 2",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 3,
-                    "title": "Clip 3"
+                    "title": "Scene 3",
+                    "narrative": "Narrative 3",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 },
                 {
                     "id": 4,
-                    "title": "Clip 4"
+                    "title": "Scene 4",
+                    "narrative": "Narrative 4",
+                    "camera": "Cinematic",
+                    "hook": "Something shocking appears.",
+                    "image_prompt": "Ultra realistic cinematic frame",
+                    "video_prompt": "Realistic motion"
                 }
             ]
         }

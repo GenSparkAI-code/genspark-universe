@@ -1,3 +1,4 @@
+from dataclasses import asdict
 from dataclasses import dataclass, field
 
 
@@ -5,6 +6,11 @@ from dataclasses import dataclass, field
 class Clip:
     id: int
     title: str = ""
+    narrative: str = ""
+    camera: str = ""
+    hook: str = ""
+    image_prompt: str = ""
+    video_prompt: str = ""
 
 
 @dataclass
@@ -18,3 +24,6 @@ class Video:
 class Concept:
     title: str = ""
     videos: list[Video] = field(default_factory=list)
+
+    def to_dict(self):
+        return asdict(self)

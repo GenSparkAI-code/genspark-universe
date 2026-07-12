@@ -21,10 +21,7 @@ class Generator:
             concept_dir = output_root / f"concept_{i:03d}"
             concept_dir.mkdir(parents=True, exist_ok=True)
 
-            data = {
-                "title": concept.title,
-                "videos": [],
-            }
+            data = concept.to_dict()
 
             for video in concept.videos:
 
@@ -48,9 +45,22 @@ class Generator:
                 encoding="utf-8",
             ) as f:
                 json.dump(
-                    data,
+                    concept.to_dict(),
                     f,
                     indent=4,
                 )
 
-            print(f"Generated {concept_dir}")
+            output_file = concept_dir / "concept.json"
+
+            with open(
+                output_file,
+                "w",
+                encoding="utf-8",
+            ) as f:
+                json.dump(
+                    concept.to_dict(),
+                    f,
+                    indent=4,
+                )
+
+            print(f"Generated {output_file}")
