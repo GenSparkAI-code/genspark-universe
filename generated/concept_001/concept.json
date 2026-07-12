@@ -1,0 +1,115 @@
+{
+    "title": "Demo Concept",
+    "videos": [
+        {
+            "id": 1,
+            "title": "Video 1",
+            "clips": [
+                {
+                    "id": 1,
+                    "title": "Clip 1"
+                },
+                {
+                    "id": 2,
+                    "title": "Clip 2"
+                },
+                {
+                    "id": 3,
+                    "title": "Clip 3"
+                },
+                {
+                    "id": 4,
+                    "title": "Clip 4"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Video 2",
+            "clips": [
+                {
+                    "id": 1,
+                    "title": "Clip 1"
+                },
+                {
+                    "id": 2,
+                    "title": "Clip 2"
+                },
+                {
+                    "id": 3,
+                    "title": "Clip 3"
+                },
+                {
+                    "id": 4,
+                    "title": "Clip 4"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Video 3",
+            "clips": [
+                {
+                    "id": 1,
+                    "title": "Clip 1"
+                },
+                {
+                    "id": 2,
+                    "title": "Clip 2"
+                },
+                {
+                    "id": 3,
+                    "title": "Clip 3"
+                },
+                {
+                    "id": 4,
+                    "title": "Clip 4"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Video 4",
+            "clips": [
+                {
+                    "id": 1,
+                    "title": "Clip 1"
+                },
+                {
+                    "id": 2,
+                    "title": "Clip 2"
+                },
+                {
+                    "id": 3,
+                    "title": "Clip 3"
+                },
+                {
+                    "id": 4,
+                    "title": "Clip 4"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Video 5",
+            "clips": [
+                {
+                    "id": 1,
+                    "title": "Clip 1"
+                },
+                {
+                    "id": 2,
+                    "title": "Clip 2"
+                },
+                {
+                    "id": 3,
+                    "title": "Clip 3"
+                },
+                {
+                    "id": 4,
+                    "title": "Clip 4"
+                }
+            ]
+        }
+    ]
+}
