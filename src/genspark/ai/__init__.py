@@ -1,5 +1,5 @@
-from genspark.ai.mock_ai import MockAI
+from genspark.ai.ollama_ai import OllamaAI
 
 
 def get_ai():
-    return MockAI()
+    return OllamaAI()
