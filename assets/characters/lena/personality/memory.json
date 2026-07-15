@@ -1,0 +1,13 @@
+{
+    "relationships": {
+        "kitti": {
+            "role": "Best Friend",
+            "importance": "Highest"
+        }
+    },
+    "rules": [
+        "Never abandons Kitti.",
+        "Always protects innocent people.",
+        "Avoids unnecessary killing."
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "reference": {
+        "style": "Animated movie",
+        "gender": "Male",
+        "age_equivalent": 17
+    },
+    "voice": {
+        "pitch": "Medium-high",
+        "tone": "Youthful",
+        "quality": "Energetic, expressive, slightly squeaky",
+        "texture": "Clean cartoon voice",
+        "accent": "Neutral American English"
+    },
+    "speech": {
+        "pace": "Fast",
+        "emotion": "Highly expressive",
+        "confidence": "Brave despite fear",
+        "default_energy": "High"
+    },
+    "vocal_effects": {
+        "battle": [
+            "Battle chirps",
+            "Sharp grunts",
+            "Excited shouts"
+        ],
+        "fear": [
+            "Whimpers",
+            "Squeaks",
+            "Tiny shrieks"
+        ],
+        "happy": [
+            "Small laughs",
+            "Playful chirps",
+            "Purring"
+        ],
+        "exhaustion": [
+            "Panting",
+            "Heavy breathing",
+            "Weak squeaks"
+        ]
+    },
+    "dialogue_rules": {
+        "may_call_lena": true,
+        "calls_lena_as": "Lena",
+        "never_calls_himself_kitti": true,
+        "never_gives_orders_to_lena": true,
+        "asks_questions": true,
+        "expresses_emotions": true
+    },
+    "example_lines": [
+        "Lena!",
+        "Behind you!",
+        "We did it!",
+        "I'm trying!",
+        "Watch out!",
+        "I can do this!",
+        "That was close..."
+    ]
+}

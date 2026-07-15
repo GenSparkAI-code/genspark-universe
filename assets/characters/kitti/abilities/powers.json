@@ -1,0 +1,153 @@
+{
+    "rules": {
+        "multiple_powers_per_scene": true,
+        "show_exhaustion": true,
+        "show_eye_glow": true,
+        "coordinate_with_lena": true
+    },
+    "powers": [
+        {
+            "id": "flame_spit",
+            "name": "Flame Spit",
+            "category": "Offensive",
+            "description": "Spits a focused jet of blue-white fire.",
+            "range": "5-10 ft",
+            "cooldown": "Short",
+            "uses_per_scene": 3,
+            "drain": "Low",
+            "visual_effects": [
+                "Blue-white flame",
+                "Heat shimmer",
+                "Sparks"
+            ]
+        },
+        {
+            "id": "scalding_spit",
+            "name": "Scalding Spit",
+            "category": "Offensive",
+            "description": "Launches burning toxic liquid that blinds and disorients.",
+            "range": "3-6 ft",
+            "cooldown": "Medium",
+            "uses_per_scene": 2,
+            "drain": "Moderate",
+            "visual_effects": [
+                "Green-yellow liquid",
+                "Steam",
+                "Sizzling impact"
+            ]
+        },
+        {
+            "id": "energy_transfer",
+            "name": "Energy Transfer",
+            "category": "Support",
+            "description": "Transfers energy to Lena.",
+            "range": "Touch",
+            "cooldown": "Long",
+            "uses_per_scene": 1,
+            "drain": "High",
+            "visual_effects": [
+                "Golden energy stream",
+                "Warm glow"
+            ]
+        },
+        {
+            "id": "claw_strike",
+            "name": "Claw Strike",
+            "category": "Melee",
+            "description": "Fast claw attack with burning scratches.",
+            "range": "Melee",
+            "cooldown": "Very Short",
+            "uses_per_scene": 99,
+            "drain": "Low",
+            "visual_effects": [
+                "Fast slash",
+                "Small sparks"
+            ]
+        },
+        {
+            "id": "sonic_screech",
+            "name": "Sonic Screech",
+            "category": "Area Control",
+            "description": "High-frequency scream that stuns enemies.",
+            "range": "20 ft cone",
+            "cooldown": "Long",
+            "uses_per_scene": 2,
+            "drain": "Moderate",
+            "visual_effects": [
+                "Sound ripples",
+                "Dust vibration"
+            ]
+        },
+        {
+            "id": "elemental_shield",
+            "name": "Elemental Shield",
+            "category": "Defense",
+            "description": "Creates a small defensive shield.",
+            "range": "Self or Lena",
+            "cooldown": "Long",
+            "uses_per_scene": 1,
+            "drain": "Moderate",
+            "visual_effects": [
+                "Blue hexagonal shield",
+                "Energy shimmer"
+            ]
+        },
+        {
+            "id": "shadow_cloak",
+            "name": "Shadow Cloak",
+            "category": "Stealth",
+            "description": "Blends into shadows.",
+            "range": "Self",
+            "cooldown": "Long",
+            "uses_per_scene": 1,
+            "drain": "Moderate",
+            "visual_effects": [
+                "Heat haze",
+                "Transparent shimmer"
+            ]
+        },
+        {
+            "id": "phoenix_ember",
+            "name": "Phoenix Ember",
+            "category": "Healing",
+            "description": "Heals minor injuries.",
+            "range": "Touch",
+            "cooldown": "Very Long",
+            "uses_per_concept": 1,
+            "drain": "High",
+            "visual_effects": [
+                "Golden ember",
+                "Warm healing light"
+            ]
+        },
+        {
+            "id": "gust_wing",
+            "name": "Gust Wing",
+            "category": "Utility",
+            "description": "Creates a powerful gust using wing beats.",
+            "range": "15 ft cone",
+            "cooldown": "Short",
+            "uses_per_scene": 3,
+            "drain": "Low",
+            "visual_effects": [
+                "Wind distortion",
+                "Flying debris"
+            ]
+        },
+        {
+            "id": "dragons_roar",
+            "name": "Dragon's Roar",
+            "category": "Ultimate",
+            "description": "Massive fear-inducing roar.",
+            "range": "30 ft radius",
+            "cooldown": "Concept Ultimate",
+            "uses_per_concept": 1,
+            "drain": "Extreme",
+            "visual_effects": [
+                "Air shockwave",
+                "Leaves flying",
+                "Visible pressure wave"
+            ]
+        }
+    ]
+}

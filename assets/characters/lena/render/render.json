@@ -1,0 +1,6 @@
+{
+    "image_model": "flux",
+    "video_model": "ltx",
+    "reference_strength": 1.0,
+    "consistency": "maximum"
+}

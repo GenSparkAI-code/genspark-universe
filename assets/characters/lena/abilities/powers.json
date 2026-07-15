@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "Minor Energy Shield",
+        "Energy Pulse",
+        "Adrenaline Boost",
+        "Storm Strike",
+        "Mystic Bind",
+        "Heavy Repulsor"
+    ],
+    "eye_color_when_using_power": "Gold",
+    "rule": "Only one power may be used in a single scene."
+}

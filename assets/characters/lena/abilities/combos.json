@@ -1,0 +1,16 @@
+{
+    "team_combos": [
+        {
+            "kitti": "Flame Spit",
+            "lena": "Energy Pulse"
+        },
+        {
+            "kitti": "Energy Transfer",
+            "lena": "Heavy Repulsor"
+        },
+        {
+            "kitti": "Distract Enemy",
+            "lena": "Storm Strike"
+        }
+    ]
+}

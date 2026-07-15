@@ -1,0 +1,25 @@
+{
+    "identity_reference": "reference.png",
+    "height": "Tall",
+    "body_type": "Athletic feminine",
+    "skin_tone": "Use reference image exactly",
+    "hair": {
+        "color": "Reference image",
+        "style": "May change"
+    },
+    "eyes": {
+        "color": "Reference image",
+        "power_color": "Gold"
+    },
+    "face": {
+        "locked": true
+    },
+    "allowed_changes": [
+        "hairstyle",
+        "clothes",
+        "pose",
+        "expression",
+        "lighting",
+        "camera"
+    ]
+}

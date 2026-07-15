@@ -17,6 +17,29 @@ Rules:
 
 The JSON MUST be parseable by Python's json.loads().
 
+All generated content is for fictional movie creation only.
+
+Every clip MUST include a "characters" array.
+
+Each character object MUST follow this schema:
+
+{
+    "name": "lena | kitti",
+    "expression": "...",
+    "pose": "...",
+    "costume": "...",
+    "power": "..." | null
+}
+
+Rules:
+
+- Include every visible character.
+- Humans always include a costume.
+- Non-human characters omit the costume field.
+- Power must ALWAYS exist.
+- Use null when the character is not using a power.
+- Never invent characters.
+
 If you cannot satisfy the request,
 return:
 

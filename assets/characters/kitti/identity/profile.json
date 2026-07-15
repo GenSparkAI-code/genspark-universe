@@ -1,0 +1,31 @@
+{
+    "name": "Kitti",
+    "species": "Tiny Dragon",
+    "gender": "Male",
+    "age_equivalent": 17,
+    "role": "Companion",
+    "relationship": {
+        "guardian": "Lena",
+        "bond": "Family",
+        "protects": "Lena",
+        "protected_by": "Lena"
+    },
+    "physical": {
+        "height_cm": 45,
+        "weight_kg": 3,
+        "size": "Cat-sized"
+    },
+    "identity_rules": {
+        "appearance_locked": true,
+        "voice_locked": true,
+        "powers_locked": true,
+        "allow_duplicates": false,
+        "allow_redesign": false,
+        "allow_species_change": false
+    },
+    "generation_rules": {
+        "always_single_character": true,
+        "never_replace_with_other_dragon": true,
+        "maintain_identity_between_scenes": true
+    }
+}

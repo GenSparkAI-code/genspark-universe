@@ -1,0 +1,83 @@
+{
+    "identity": {
+        "canonical_name": "Kitti",
+        "reference_locked": true,
+        "appearance_version": "1.0"
+    },
+    "species": {
+        "type": "Tiny Dragon",
+        "style": "Photorealistic CGI creature",
+        "realism": "Hollywood movie quality"
+    },
+    "body": {
+        "height_cm": 45,
+        "weight_kg": 3,
+        "body_shape": "Small, agile, athletic",
+        "proportions": "Cat-sized dragon",
+        "silhouette": "Cute but heroic"
+    },
+    "head": {
+        "shape": "Rounded dragon head",
+        "horns": {
+            "count": 2,
+            "color": "Cyan blue",
+            "size": "Small"
+        },
+        "snout": "Short",
+        "jaw": "Compact",
+        "teeth": "Small sharp white teeth"
+    },
+    "eyes": {
+        "color": "Emerald green",
+        "shape": "Large expressive",
+        "glow_when_using_powers": true,
+        "pupil": "Vertical slit"
+    },
+    "scales": {
+        "primary_color": "Cyan blue",
+        "finish": "Slight iridescent sheen",
+        "texture": "Fine dragon scales"
+    },
+    "underbelly": {
+        "color": "Magenta pink",
+        "texture": "Soft plated scales"
+    },
+    "wings": {
+        "color": "Golden yellow",
+        "type": "Dragon wings",
+        "size": "Proportional to body",
+        "default_state": "Folded"
+    },
+    "tail": {
+        "length": "Medium",
+        "tip": {
+            "fur_color": "Golden yellow",
+            "fur_style": "Small fluffy tuft"
+        }
+    },
+    "claws": {
+        "color": "Black",
+        "type": "Retractable"
+    },
+    "spines": {
+        "location": "Along spine",
+        "color": "Cyan blue"
+    },
+    "animation_defaults": {
+        "idle": "Curious breathing",
+        "movement": "Quick energetic",
+        "flight": "Fast wingbeats",
+        "emotion": "Highly expressive"
+    },
+    "consistency_rules": [
+        "Only one Kitti may appear.",
+        "Never change colors.",
+        "Never change body proportions.",
+        "Never change species.",
+        "Never change eye color.",
+        "Never change wing color.",
+        "Never change underbelly color.",
+        "Never redesign the face.",
+        "Always match the reference images."
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "engine": "flux",
+  "style": "photorealistic cinematic CGI dragon",
+  "quality": "8k",
+  "aspect_ratio": "9:16",
+  "reference_image": "identity/reference.png",
+  "turnaround": "identity/turnaround.png",
+  "scale_reference": "identity/scale_reference.png"
+}

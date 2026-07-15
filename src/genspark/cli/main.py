@@ -1,17 +1,25 @@
 import argparse
 
-from genspark.planner.generator import Generator
+from genspark.pipeline.pipeline import Pipeline
 
 
 def main():
 
     parser = argparse.ArgumentParser(
-        prog="genspark"
+        prog="genspark",
+        description="GenSpark Universe",
     )
 
-    sub = parser.add_subparsers(dest="command")
+    subparsers = parser.add_subparsers(
+        dest="command",
+        required=True,
+    )
 
-    next_parser = sub.add_parser("next")
+    next_parser = subparsers.add_parser(
+        "next",
+        help="Generate new concepts",
+    )
+
     next_parser.add_argument(
         "count",
         type=int,
@@ -19,8 +27,12 @@ def main():
 
     args = parser.parse_args()
 
-    if args.command != "next":
-        parser.print_help()
-        return
+    if args.command == "next":
 
-    Generator().generate(args.count)
+        Pipeline().run(
+            args.count
+        )
+
+
+if __name__ == "__main__":
+    main()

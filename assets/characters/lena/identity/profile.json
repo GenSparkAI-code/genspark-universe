@@ -1,0 +1,10 @@
+{
+    "id": "lena",
+    "name": "Lena",
+    "age": 21,
+    "gender": "Female",
+    "species": "Human",
+    "role": "Main Protagonist",
+    "description": "Young survivor gifted with mysterious energy abilities.",
+    "default_costume": "jungle"
+}
