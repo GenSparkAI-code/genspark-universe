@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Generated outputs
+generated/
+tests/output/
+
+# Environment
+.env
+
+# OS
+.DS_Store

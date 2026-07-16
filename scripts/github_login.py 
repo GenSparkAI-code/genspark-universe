@@ -1,0 +1,75 @@
+import os
+import subprocess
+import sys
+
+
+GITHUB_USERNAME = os.getenv("GITHUB_USERNAME")
+GITHUB_EMAIL = os.getenv("GITHUB_EMAIL")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+
+
+def run(*cmd):
+    subprocess.run(cmd, check=True)
+
+
+def main():
+
+    if not all([
+        GITHUB_USERNAME,
+        GITHUB_EMAIL,
+        GITHUB_TOKEN,
+    ]):
+        print(
+            "Please set GITHUB_USERNAME, GITHUB_EMAIL and GITHUB_TOKEN."
+        )
+        sys.exit(1)
+
+    run(
+        "git",
+        "config",
+        "--global",
+        "user.name",
+        GITHUB_USERNAME,
+    )
+
+    run(
+        "git",
+        "config",
+        "--global",
+        "user.email",
+        GITHUB_EMAIL,
+    )
+
+    run(
+        "git",
+        "config",
+        "--global",
+        "credential.helper",
+        "store",
+    )
+
+    credentials = (
+        f"https://{GITHUB_USERNAME}:{GITHUB_TOKEN}@github.com\n"
+    )
+
+    credentials_path = os.path.expanduser(
+        "~/.git-credentials"
+    )
+
+    with open(
+        credentials_path,
+        "w",
+        encoding="utf-8",
+    ) as f:
+        f.write(credentials)
+
+    os.chmod(
+        credentials_path,
+        0o600,
+    )
+
+    print("GitHub credentials configured.")
+
+
+if __name__ == "__main__":
+    main()
