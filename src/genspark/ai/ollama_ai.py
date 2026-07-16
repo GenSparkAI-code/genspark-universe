@@ -1,3 +1,4 @@
+import os
 import requests
 
 
@@ -5,10 +6,13 @@ class OllamaAI:
 
     def __init__(
         self,
-        model="qwen3:1.7b",
-        url="http://localhost:11434/api/chat",
+        model: str | None = None,
+        url: str = "http://localhost:11434/api/chat",
     ):
-        self.model = model
+        self.model = model or os.getenv(
+            "OLLAMA_MODEL",
+            "qwen3:8b",
+        )
         self.url = url
 
     def generate(
