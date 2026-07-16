@@ -1,5 +1,7 @@
 from pathlib import Path
 
+from genspark.models.character import CharacterState
+
 
 class PromptBuilder:
 
@@ -13,14 +15,22 @@ class PromptBuilder:
     # Public
     #
 
-    def build_image_prompt(self, clip: dict) -> str:
+    def build_image_prompt(
+        self,
+        clip: dict,
+    ) -> str:
+
         return self._build_prompt(
             clip,
             template_name="image_template.txt",
             scene_key="image_prompt",
         )
 
-    def build_video_prompt(self, clip: dict) -> str:
+    def build_video_prompt(
+        self,
+        clip: dict,
+    ) -> str:
+
         return self._build_prompt(
             clip,
             template_name="video_template.txt",
@@ -56,17 +66,19 @@ class PromptBuilder:
             )
 
         return "\n\n".join(
-            x for x in prompts if x.strip()
+            prompt
+            for prompt in prompts
+            if prompt.strip()
         )
 
     def _build_character_prompt(
         self,
-        character: dict,
+        character: CharacterState,
         scene: str,
         template_name: str,
     ) -> str:
 
-        name = character["name"]
+        name = character.name
 
         character_dir = (
             self.characters_dir
@@ -141,28 +153,25 @@ class PromptBuilder:
                 self._optional_json(
                     character_dir
                     / "expressions",
-                    character.get("expression"),
+                    character.expression,
                 ),
 
             "pose":
                 self._optional_json(
                     character_dir
                     / "poses",
-                    character.get("pose"),
+                    character.pose,
                 ),
 
             "costume":
                 self._optional_json(
                     character_dir
                     / "costumes",
-                    character.get("costume"),
+                    character.costume,
                 ),
 
             "selected_power":
-                character.get(
-                    "power",
-                    "",
-                ),
+                character.power or "",
 
             "scene":
                 scene,
@@ -193,7 +202,8 @@ class PromptBuilder:
             return ""
 
         return self._load_text(
-            directory / f"{filename}.json"
+            directory
+            / f"{filename}.json"
         )
 
     def _load_text(

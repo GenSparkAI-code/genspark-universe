@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 
 from genspark.models.concept import Concept
+from genspark.pipeline.clip_runner import ClipRunner
 from genspark.planner.concept_planner import ConceptPlanner
 from genspark.planner.video_planner import VideoPlanner
 
@@ -11,7 +12,10 @@ class Generator:
     def __init__(self):
 
         self.concept_planner = ConceptPlanner()
+
         self.video_planner = VideoPlanner()
+
+        self.clip_runner = ClipRunner()
 
     def generate(
         self,
@@ -19,6 +23,7 @@ class Generator:
     ):
 
         output_root = Path("generated")
+
         output_root.mkdir(
             parents=True,
             exist_ok=True,
@@ -38,9 +43,12 @@ class Generator:
             # Generate Concept
             #
 
-            concept_data = self.concept_planner.generate()
+            concept_data = (
+                self.concept_planner.generate()
+            )
 
             concept = Concept(
+                id=concept_index,
                 title=concept_data["title"],
             )
 
@@ -71,8 +79,24 @@ class Generator:
                     video
                 )
 
+                #
+                # Render clips immediately
+                #
+
+                for clip in video.clips:
+
+                    print(
+                        f"Rendering Video {video.id} Clip {clip.id}"
+                    )
+
+                    self.clip_runner.run(
+                        concept_id=concept_index,
+                        video=video,
+                        clip=clip,
+                    )
+
             #
-            # Save
+            # Save concept
             #
 
             concept_dir = (
@@ -112,6 +136,7 @@ class Generator:
                             "hook": clip.hook,
                             "image_prompt": clip.image_prompt,
                             "video_prompt": clip.video_prompt,
+                            "characters": clip.characters,
                         }
                     )
 
@@ -123,7 +148,8 @@ class Generator:
                 json.dumps(
                     output,
                     indent=4,
-                )
+                ),
+                encoding="utf-8",
             )
 
             print()

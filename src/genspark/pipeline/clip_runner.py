@@ -72,7 +72,7 @@ class ClipRunner:
 
         request = ImageRequest(
             prompt=image_prompt,
-            output_path=str(image_path),
+            output_path=image_path,
         )
 
         self.renderer.render(request)
