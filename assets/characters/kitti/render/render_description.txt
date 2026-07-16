@@ -1,0 +1,9 @@
+Kitti is a tiny dragon approximately the size of a domestic cat.
+
+He has cyan-blue scales, a magenta underbelly, emerald-green eyes, small cyan horns, golden dragon wings, and a golden tuft on the end of his tail.
+
+His appearance must remain identical across every scene. Never redesign him or change his colors, proportions, species, or facial features.
+
+Always generate Kitti as an ultra-photorealistic fantasy creature from a live-action Hollywood movie, not cartoon, anime, Disney, Pixar, Ghibli, illustration, toy, or stylized CGI.
+
+His scales should have realistic texture, physically accurate lighting, subtle reflections, and believable anatomy while remaining expressive and emotionally readable.

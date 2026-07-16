@@ -1,61 +1,36 @@
+Cinematic ultra-photorealistic live-action movie still.
+
+Scene:
 {scene}
 
-------------------------
-PROFILE
-------------------------
-{profile}
+Character:
+{render_description}
 
-------------------------
-APPEARANCE
-------------------------
-{appearance}
-
-------------------------
-COLORS
-------------------------
-{colors}
-
-------------------------
-PERSONALITY
-------------------------
-{personality}
-
-------------------------
-VOICE
-------------------------
-{voice}
-
-------------------------
-MEMORY
-------------------------
-{memory}
-
-------------------------
-POWERS
-------------------------
-{powers}
-
-------------------------
-SELECTED POWER
-------------------------
-{selected_power}
-
-------------------------
-COMBOS
-------------------------
-{combos}
-
-------------------------
-EXPRESSION
-------------------------
+Expression:
 {expression}
 
-------------------------
-POSE
-------------------------
+Pose:
 {pose}
 
-------------------------
-COSTUME
-------------------------
+Costume:
 {costume}
+
+Using Power:
+{selected_power}
+
+Requirements:
+- Ultra photorealistic
+- Live action
+- Hollywood blockbuster quality
+- Natural lighting
+- Sharp focus
+- Highly detailed skin and textures
+- Physically accurate anatomy
+- Consistent character identity
+- No anime
+- No cartoon
+- No Pixar
+- No Disney
+- No Ghibli
+- No illustration
+- No painting

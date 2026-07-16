@@ -1,0 +1,9 @@
+Lena is a 21-year-old athletic human female. She has a realistic face that must remain identical across every scene and must always match the provided reference image.
+
+She has medium-length dark brown hair, expressive brown eyes that glow gold only while using powers, lightly tanned skin, and an athletic build.
+
+Always generate Lena as a photorealistic live-action cinematic character, not anime, cartoon, illustration, painting, Pixar, Disney, Ghibli, comic, CGI, or stylized art.
+
+Her clothing may change depending on the selected costume while her face, body proportions, ethnicity, and identity never change.
+
+She should look like a Hollywood action movie protagonist with natural skin texture, realistic lighting, detailed eyes, physically accurate anatomy, and high-end cinematic realism.

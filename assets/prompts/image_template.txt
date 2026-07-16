@@ -1,0 +1,25 @@
+Create an ultra-photorealistic cinematic image.
+
+STYLE
+- Live action
+- Hollywood movie
+- Photorealistic
+- Unreal Engine 5
+- 8k
+- Natural skin
+- Realistic lighting
+- No anime
+- No cartoon
+- No Ghibli
+- No illustration
+- No painting
+
+SCENE
+
+{scene}
+
+CHARACTERS
+
+{characters}
+
+The scene must look like a real movie still.
