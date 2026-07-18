@@ -1,5 +1,6 @@
 import json
 import random
+import shutil
 from copy import deepcopy
 from pathlib import Path
 
@@ -23,6 +24,10 @@ class FluxRenderer(BaseImageRenderer):
             workflow_path.read_text(
                 encoding="utf-8",
             )
+        )
+
+        self.comfy_input_dir = Path(
+            "/workspace/ComfyUI/input"
         )
 
     def render(
@@ -56,15 +61,32 @@ class FluxRenderer(BaseImageRenderer):
             load_image_nodes,
             request.characters,
         ):
-            workflow[node_id]["inputs"]["image"] = str(
-                (
-                    Path("assets")
-                    / "characters"
-                    / character.name
-                    / "identity"
-                    / "turnaround.png"
-                ).resolve()
+
+            source = (
+                Path("assets")
+                / "characters"
+                / character.name
+                / "identity"
+                / "turnaround.png"
             )
+
+            filename = (
+                f"{character.name}_turnaround.png"
+            )
+
+            destination = (
+                self.comfy_input_dir
+                / filename
+            )
+
+            shutil.copy2(
+                source,
+                destination,
+            )
+
+            workflow[node_id]["inputs"][
+                "image"
+            ] = filename
 
         #
         # Random seed
