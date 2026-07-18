@@ -46,13 +46,15 @@ class PromptBuilder:
             for character in clip.get("characters", [])
         ]
 
+        characters_text = "\n\n".join(character_blocks)
+
         prompt = f"""SCENE
 
 {scene}
 
 CHARACTERS
 
-{"\n\n".join(character_blocks)}
+{characters_text}
 
 Keep every character identical to its supplied Redux reference image.
 Never redesign a character.
