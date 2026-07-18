@@ -1,5 +1,5 @@
 from genspark.ai import get_ai
-from assets.characters.registry import CharacterRegistry
+from genspark.characters.registry import CharacterRegistry
 from genspark.models.character import CharacterState
 from genspark.models.concept import Clip
 from genspark.models.concept import Video
