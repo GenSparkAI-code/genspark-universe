@@ -1,25 +1,11 @@
-Create an ultra-photorealistic cinematic image.
-
-STYLE
-- Live action
-- Hollywood movie
-- Photorealistic
-- Unreal Engine 5
-- 8k
-- Natural skin
-- Realistic lighting
-- No anime
-- No cartoon
-- No Ghibli
-- No illustration
-- No painting
+Generate a photorealistic cinematic image.
 
 SCENE
-
 {scene}
 
 CHARACTERS
-
 {characters}
 
-The scene must look like a real movie still.
+The supplied Redux reference images define each character's identity.
+Never redesign or replace a character.
+Maintain perfect identity consistency.

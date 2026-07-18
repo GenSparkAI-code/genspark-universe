@@ -16,7 +16,7 @@ class FluxRenderer(BaseImageRenderer):
 
         workflow_path = (
             Path("workflows")
-            / "flux.json"
+            / "flux_redux.json"
         )
 
         self.workflow = json.loads(
@@ -38,16 +38,40 @@ class FluxRenderer(BaseImageRenderer):
         # Prompt
         #
 
-        workflow["56:51"]["inputs"][
+        workflow["6"]["inputs"][
             "text"
         ] = request.prompt
+
+        #
+        # Character reference images (Redux)
+        #
+
+        load_image_nodes = [
+            node_id
+            for node_id, node in workflow.items()
+            if node["class_type"] == "LoadImage"
+        ]
+
+        for node_id, character in zip(
+            load_image_nodes,
+            request.characters,
+        ):
+            workflow[node_id]["inputs"]["image"] = str(
+                (
+                    Path("assets")
+                    / "characters"
+                    / character.name
+                    / "identity"
+                    / "turnaround.png"
+                ).resolve()
+            )
 
         #
         # Random seed
         #
 
-        workflow["56:52"]["inputs"][
-            "seed"
+        workflow["25"]["inputs"][
+            "noise_seed"
         ] = random.randint(
             0,
             2**63 - 1,
@@ -83,7 +107,6 @@ class FluxRenderer(BaseImageRenderer):
             )
 
         if not images:
-
             raise RuntimeError(
                 "No image generated."
             )

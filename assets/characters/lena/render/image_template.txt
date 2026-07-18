@@ -1,10 +1,4 @@
-Cinematic ultra-photorealistic live-action movie still.
-
-Scene:
-{scene}
-
-Character:
-{render_description}
+Lena.
 
 Expression:
 {expression}
@@ -15,22 +9,8 @@ Pose:
 Costume:
 {costume}
 
-Using Power:
-{selected_power}
+Power:
+{power}
 
-Requirements:
-- Ultra photorealistic
-- Live action
-- Hollywood blockbuster quality
-- Natural lighting
-- Sharp focus
-- Highly detailed skin and textures
-- Physically accurate anatomy
-- Consistent character identity
-- No anime
-- No cartoon
-- No Pixar
-- No Disney
-- No Ghibli
-- No illustration
-- No painting
+Keep Lena identical to the supplied Redux reference image.
+Only change the requested pose, expression and action.

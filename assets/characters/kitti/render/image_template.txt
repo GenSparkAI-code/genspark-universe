@@ -1,10 +1,4 @@
-Cinematic ultra-photorealistic live-action movie still.
-
-Scene:
-{scene}
-
-Character:
-{render_description}
+Kitti.
 
 Expression:
 {expression}
@@ -12,25 +6,9 @@ Expression:
 Pose:
 {pose}
 
-Costume:
-{costume}
+Power:
+{power}
 
-Using Power:
-{selected_power}
-
-Requirements:
-- Ultra photorealistic
-- Live action
-- Hollywood blockbuster quality
-- Natural lighting
-- Sharp focus
-- Highly detailed skin and textures
-- Physically accurate anatomy
-- Consistent character identity
-- No anime
-- No cartoon
-- No Pixar
-- No Disney
-- No Ghibli
-- No illustration
-- No painting
+Keep Kitti identical to the supplied Redux reference image.
+Never redesign the dragon.
+Only change the requested pose, expression and action.

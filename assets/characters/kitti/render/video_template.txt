@@ -1,65 +1,37 @@
-{scene}
+Kitti appears in this scene.
 
-========================
-CHARACTER PROFILE
-========================
-
-PROFILE
-{profile}
-
-APPEARANCE
-{appearance}
-
-COLORS
-{colors}
-
-PERSONALITY
-{personality}
-
-VOICE
-{voice}
-
-MEMORY
-{memory}
-
-========================
-CURRENT STATE
-========================
-
-EXPRESSION
+Expression:
 {expression}
 
-POSE
+Pose:
 {pose}
 
-COSTUME
-{costume}
+Power:
+{power}
 
-ACTIVE POWER
-{selected_power}
+Animate Kitti naturally while preserving the exact appearance from the supplied Redux reference image.
 
-========================
-REFERENCE
-========================
+Maintain:
+- face
+- horns
+- wings
+- body proportions
+- scales
+- colors
+- markings
+- eye color
+- tail shape
 
-AVAILABLE POWERS
-{powers}
+Only change:
+- expression
+- pose
+- flying motion
+- actions
+- power effects
 
-AVAILABLE COMBOS
-{combos}
+Flight should be smooth and physically believable.
+Wing flaps should naturally drive movement.
+Tail and body should react naturally to motion.
 
-========================
-VIDEO RULES
-========================
-
-- Character appearance must remain perfectly consistent.
-- Keep facial expression exactly as specified.
-- Keep body pose exactly as specified.
-- Use the selected power only if it is not empty.
-- Preserve character proportions, colors, clothing and identity.
-- Produce smooth natural movement.
-- Maintain cinematic realism.
-- No duplicate characters.
-- No body deformation.
-- No extra limbs.
-- No incorrect facial features.
+Never redesign or replace Kitti.
+Character identity must remain perfectly consistent across every frame.

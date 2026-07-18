@@ -1,65 +1,29 @@
-{scene}
+Lena appears in this scene.
 
-========================
-CHARACTER PROFILE
-========================
-
-PROFILE
-{profile}
-
-APPEARANCE
-{appearance}
-
-COLORS
-{colors}
-
-PERSONALITY
-{personality}
-
-VOICE
-{voice}
-
-MEMORY
-{memory}
-
-========================
-CURRENT STATE
-========================
-
-EXPRESSION
+Expression:
 {expression}
 
-POSE
+Pose:
 {pose}
 
-COSTUME
+Costume:
 {costume}
 
-ACTIVE POWER
-{selected_power}
+Power:
+{power}
 
-========================
-REFERENCE
-========================
+Animate Lena naturally and realistically.
 
-AVAILABLE POWERS
-{powers}
+Maintain her exact facial features, hairstyle, body proportions, clothing design, colors and accessories exactly as defined by the supplied Redux reference image.
 
-AVAILABLE COMBOS
-{combos}
+Only change:
+- facial expression
+- body pose
+- movement
+- action
+- interaction with the environment
 
-========================
-VIDEO RULES
-========================
+Human motion should be physically realistic with believable weight, balance and smooth transitions.
 
-- Character appearance must remain perfectly consistent.
-- Keep facial expression exactly as specified.
-- Keep body pose exactly as specified.
-- Use the selected power only if it is not empty.
-- Preserve character proportions, colors, clothing and identity.
-- Produce smooth natural movement.
-- Maintain cinematic realism.
-- No duplicate characters.
-- No body deformation.
-- No extra limbs.
-- No incorrect facial features.
+Never redesign, replace or morph Lena into a different person.
+Identity must remain perfectly consistent throughout the entire video.

@@ -71,9 +71,10 @@ class ClipRunner:
         #
 
         request = ImageRequest(
-            prompt=image_prompt,
-            output_path=image_path,
-        )
+        prompt=image_prompt,
+        output_path=image_path,
+        characters=clip.characters,
+    )
 
         self.renderer.render(request)
 
