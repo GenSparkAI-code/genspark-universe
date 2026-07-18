@@ -25,7 +25,13 @@ class ComfyClient:
             },
         )
 
-        response.raise_for_status()
+        if not response.ok:
+            print("\n" + "=" * 80)
+            print("COMFYUI ERROR")
+            print("=" * 80)
+            print(response.text)
+            print("=" * 80 + "\n")
+            response.raise_for_status()
 
         return response.json()["prompt_id"]
 
